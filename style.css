@@ -1,0 +1,77 @@
+body {
+    overflow: hidden;
+    background: black;
+    background-size: cover;
+}
+#board {
+    position: relative;
+    width: 100%;
+    height: 100% ;
+    background: url("hintergrund.webp");
+    overflow: hidden;
+    background-size: cover;
+}
+
+
+#player {
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    background: url("player.webp");
+    background-size: 100% 100%;
+    left: 45%;
+    bottom: 0;
+}
+
+.patrone {
+    position: absolute;
+    bottom: 9%;
+    width: 0.3%;
+    height: 2%;
+    background-size: contain;
+    background: red no-repeat;
+}
+
+.enemies {
+    position: absolute;
+    top: -15%;
+    width: 8%;
+    height: 10%;
+    background: url("enemy.webp");
+    background-size: 100% 100%;
+}
+
+h1 {
+    position: -ms-device-fixed;
+    font-size: 2vw;
+    color: white;
+}
+a{
+    float:right ;
+}
+
+
+
+@media only screen and (max-device-width: 400px) {
+    #board {
+        position: relative;
+        width: 100%;
+        height: 100% ;
+        background: url("hintergrund.webp");
+        overflow: hidden;
+        background-size: cover;
+    }
+
+}
+@media only screen and (max-device-height: 500px) {
+    #board {
+        position: relative;
+        width: 100%;
+        height: 100% ;
+        background: url("hintergrund.webp");
+        overflow: hidden;
+        background-size: cover;
+    }
+}
+
+
